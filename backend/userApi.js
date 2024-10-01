@@ -112,22 +112,6 @@ const login = (email, password) => {
   });
 };
 
-// createUser(
-//   'rahhuindio',
-//   'niyaz',
-//   'mohammed',
-//   'niyaz@gmail.com',
-//   'asfdafd',
-//   'uri of proile'
-// ).then((res, error) => {
-//   console.log(res);
-// });
 
-// login('haneesh@gmail.com', 'asdfasdf').then((res, rej) => {
-//   if (rej) {
-//     console.log(rej);
-//   }
-//   console.log(res);
-// });
 
 module.exports = { createUser, login };

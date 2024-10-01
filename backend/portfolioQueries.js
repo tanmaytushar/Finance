@@ -54,5 +54,5 @@ const allTransactions = (uuid) => {
   });
 };
 
-// transactionsOnComp('iDwf2cfe7ZjgXBTTB3cgCA', 'AAPL');
+
 module.exports = { transactionsOnComp, allTransactions };
